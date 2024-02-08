@@ -1,0 +1,170 @@
+repo_name: rgunindi/serenitySellerOffice_SignUp_Testing
+report_id: 94164d41eaf3ee98405762381bc69e8b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T19:40:42+00:00'
+requested_by: rgunindi
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: Gherkin
+  description: A plain-text language with a simple structure
+  website_url: https://cucumber.io/docs/gherkin/reference/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Ramazan
+  last_updated_on: 2021-12-26 13:24:32.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2021-12-26 13:24:32.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Ramazan
+  last_updated_on: 2021-12-26 13:24:32.000000000 Z
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  version: 1.0.13
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing/blob/main/pom.xml
+  detection_source: build.gradle
+  last_updated_by: Ramazan
+  last_updated_on: 2021-12-26 13:24:32.000000000 Z
+  vulnerabilities:
+  - name: QOS.ch Logback vulnerable to Deserialization of Untrusted Data
+    cve_id: CVE-2017-5929
+    cve_url: https://github.com/advisories/GHSA-vmfg-rjjm-rjrj
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.2.0
+  - name: logback serialization vulnerability
+    cve_id: CVE-2023-6378
+    cve_url: https://github.com/advisories/GHSA-vmq6-5m68-f53m
+    detected_date: Nov 30
+    severity: high
+    first_patched: 1.2.13
+- name: net.serenity-bdd:serenity-core
+  description: Serenity core libraries
+  version: 3.1.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing/blob/main/pom.xml
+  detection_source: build.gradle
+  last_updated_by: Ramazan
+  last_updated_on: 2021-12-26 13:24:32.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2021-12-26 13:24:32.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  version: 5.8.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2021-12-26 13:24:32.000000000 Z
+- name: org.junit.platform:junit-platform-launcher
+  description: Module "junit-platform-launcher" of JUnit 5
+  version: 1.8.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2021-12-26 13:24:32.000000000 Z
+- name: org.junit.vintage:junit-vintage-engine
+  description: Module "junit-vintage-engine" of JUnit 5
+  version: 5.8.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/serenitySellerOffice_SignUp_Testing/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2021-12-26 13:24:32.000000000 Z
